@@ -44,12 +44,15 @@ ENV PATH="${PYENV_ROOT}/shims:${PYENV_ROOT}/bin:${PATH}"
 # Install Python versions 
 # -----------------------------------------------------------------------------------------
 ARG PYTHON_VERSIONS="\
-    3.6.15 \
-    3.7.10 \
-    3.8.12 \
-    3.9.9 \
     3.10.2 \
     "
+# ARG PYTHON_VERSIONS="\
+#     3.6.15 \
+#     3.7.10 \
+#     3.8.12 \
+#     3.9.9 \
+#     3.10.2 \
+#     "
 
 RUN for item in $PYTHON_VERSIONS; \
         do \

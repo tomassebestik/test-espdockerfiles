@@ -1,4 +1,4 @@
-name: TOMASTEST - Build and push `pyenv_python` image
+name: ORGTOMASTEST - Build and push `pyenv_python` image
 
 on: [workflow_dispatch]
 
